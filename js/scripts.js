@@ -2,12 +2,23 @@ $(function() {
   $("#options").submit(function(event) {
     event.preventDefault();
 
-    var lightsaber = $("input:radio[name=lightsaber]:checked").val();
-    var blue = $("input:radio[name=blue]:checked").val();
+    var weapon = $("input:radio[name=weapon]:checked").val();
+    var color = $("input:radio[name=color]:checked").val();
 
-    if ("lightsaber" && "blue") {
+    if (weapon === "lightsaber" && color === "blue") {
       $("#obi").show();
+    } else {
+      $("#maul").show();
     }
-    // console.log(weaponInput);
+
+    var weapon = $("input:radio[name=weapon]:checked").val();
+    var color = $("input:radio[name=color]:checked").val();
+
+    if (weapon === "blaster" && color === "blue") {
+      $("#han").show();
+    } else if {
+      $("#boba").show();
+    }
+       // console.log(weaponInput);
   });
 });
