@@ -37,5 +37,6 @@ $(function() {
       $(".image").hide();
       $("#evilchewbacca").show();
     }
+    $("#hidden").show();
   });
 });

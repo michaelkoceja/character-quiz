@@ -1,3 +1,7 @@
+#hidden {
+  display: none;
+}
+
 #obi {
   display: none;
 }
@@ -28,4 +32,16 @@
 
 #evilchewbacca {
   display: none;
+}
+
+body {
+  background-image: url("http://space-facts.com/wp-content/uploads/magellanic-clouds.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+h1 {
+  text-align: center;
 }
